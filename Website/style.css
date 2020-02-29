@@ -1,16 +1,26 @@
+.top{
+      margin-left: 20px;
+}
 li.main{
     
     display: inline;
     margin: 100px;
-    line-height: 0px;
 
+    margin-left: initial;
 }
-li.end{
-     
-    display: inline;
-    margin: 100px;
-    line-height: 0px;
+h1{
+    position: relative;
+    margin-top: -11.2%;
+    float: inline-end;
+    margin-left: 400px ;
+    letter-spacing: 0px;
+}
+li img{
+     max-width: 10%;
+}
 
+.logo{
+    display: inline;
 }
 a{
     text-decoration: none;
@@ -31,16 +41,16 @@ ul{
     
 }
 #ware{
-    margin-left: 20px;
+    margin-left: 4%;
 }
 
 #frame{
     float:right;
-    margin-right: 20px;
+    margin-right: 4%;
     background-color: antiquewhite;
-    margin-top: -489.11px;
-    border-bottom: .7;
+    margin-top: -34%;
     border-color: black;
+    outline: auto;
 }
 #block{
     height: 100px;
@@ -51,4 +61,14 @@ ul{
     padding-bottom: 0.7%;
     border-color:skyblue ;
     
+}
+.end{
+    background-color: blanchedalmond;
+    border: solid;
+    height: 400px;
+}
+.end a{
+    margin:100px;
+    margin-left: 30px;
+
 }
